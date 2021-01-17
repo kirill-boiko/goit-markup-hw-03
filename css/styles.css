@@ -1,0 +1,245 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--title-text-color);
+
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* logo */
+
+.logo {
+  color: var(--primary-text-color);
+
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.web {
+  color: var(--accent-color);
+}
+
+/* header nav */
+
+.nav-main .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts-list .link:hover,
+.nav-main .link:hover,
+.nav-main .link:focus,
+.nav-main .link.current,
+.contacts-list .link:focus {
+  color: var(--accent-color);
+}
+
+/* header contacts */
+
+.contacts-list .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  background: #2f303a;
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  color: var(--primary-white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Sections */
+
+.big-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: var(--primary-text-color);
+
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* feature */
+
+.team,
+.feature {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.feature-list .title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: var(--primary-text-color);
+
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.feature-list .text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* about */
+
+.about {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
+
+/* team */
+.team-list .title {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-list .text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* footer */
+
+.footer {
+  background: #2f303a;
+}
+
+.address-list .link {
+  color: rgba(255, 255, 255, 0.6);
+
+  text-decoration: none;
+  font-style: normal;
+}
+
+.address-list .maps {
+  color: var(--primary-white-color);
+
+  text-decoration: none;
+  font-style: normal;
+}
+
+.address-list .link:hover,
+.address-list .link:focus {
+  color: var(--accent-color);
+}
+
+/* footer logo */
+
+.footer .logo {
+  color: var(--primary-white-color);
+}
+
+/* button */
+
+.button {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  display: inline-block;
+  cursor: pointer;
+  padding: 6px 22px;
+  border-radius: 4px;
+  border: transparent;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.button.secondary {
+  background-color: #f5f4fa;
+}
+.hero .button {
+  line-height: 1.87;
+}
+
+/* portfolio */
+
+.filtr-list .title {
+  color: var(--primary-text-color);
+
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.filtr-list .text {
+  color: var(--title-text-color);
+
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.filtr-list .link {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  outline: 2px solid tomato;
+}
